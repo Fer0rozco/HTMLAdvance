@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Helvetica;
+        }
+       thead{
+        color:bisque; background-color: aquamarine; font-size: larger;
+       }
+       tbody{
+        color: aquamarine; background-color: forestgreen;
+       }
+       tfoot{
+        color: forestgreen; background-color: bisque;
+       }
+       table, thead, td, tr {
+        border: 2px solid black; border-radius: 10px;
+       }
+    </style>
+</head>
+
+<body>
+    <h4>
+        Elemento thead, tbody, tfoot.
+    </h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>$150</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$250</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
